@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+     background-color: rgb(255, 255, 255);
+     font-size: 19px;
+ }
+ .header{
+     height: 80px;
+     background-color:rgb(196, 243, 243);
+ }
+ .content {
+     width: 1500px;
+     height: 300px;
+     
+ }
+ article{
+     padding: 30px;
+ }
+ .navigation a {
+     float: left;
+     color: black;
+     text-align: center;
+     padding: 25px 40px;
+     text-decoration: none;
+     font-size: 17px;
+ }
+ .navigation a:hover {
+     background-color: rgb(0, 242, 255);
+     color: black;
+ }
+ .navigation a.active {
+     background-color: aquamarine;
+     color: beige;
+ }
+ #myCanvas{
+     width:1550px; 
+     height:600px; 
+    background-image:url('https://m.media-amazon.com/images/I/71N-oy+6-gL.jpg');
+     background-size: cover;}
